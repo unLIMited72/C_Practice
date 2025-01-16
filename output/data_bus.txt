@@ -1,0 +1,24 @@
+What is Data Bus in Computer System?
+
+In a computer system, The data bus is a set of paralled electrical conductors
+that are used to transmit data between different components of the system.
+It is a communication pathway that allows data to be transferred between the central processing unit(CPU)
+, memory and other devices such as input, output, I/O ports and peripheral devices
+The data bus is typically made up of multiple wire. Each of which can carry one bit of information at a time.
+The width of the data bus measured in bit determines the amount of data that can be transferred at once.
+A wider data bus can transfer more data at once than a narrower one.
+For example a 64-bit data bus can transfer 64 bits of data at a time while a 32-bit
+data bus can only transfer 32 bits at a time. This means that a system with a 64-bit data bus can transfer more data
+and process it faster than a system with a 32-bit data bus.
+Additionally the data bus is typically unidirectional which means data can travel in Only One Direction along the bus.
+This is to ensure that data is only read or written by the appropriate component and not accidentally overwritten by another
+component.
+However, some systems use a bi-directional data bus which allows data to be transmitted in both directions.
+The data bus is also divided into two parts. One for read operations and the other for write operations.
+This is to keep read and write operations separate and prevent conflicts between them.
+The read bus is used to transmit data from memory or an I/O device to the CPU while the write bus is used to transmit
+data from the CPU to memory I/O device.
+The data bus is one of the most important components of a computer system as it enables the different
+components of the system to communicate and exchange information.
+it is a vital part of the system's architecture and its performance has a direct impact on the system's overall performance.
+That's why the size and speed of the data bus are critical factors in determining the performance of a computer system.
