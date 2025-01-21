@@ -9,8 +9,8 @@ int main(void)
     int nList[5] = {50,40,10,50,20};
 
     for(int i = 0; i < Length_array(nList) - 1; i++){
-        for (int j = i; j < Length_array(nList); j++){
-            if(nList[j] > nList[i]){
+        for (int j = i+1; j < Length_array(nList); j++){
+            if(nList[j] < nList[i]){
                 Exchange(nList[j], nList[i]);
             }
         }
